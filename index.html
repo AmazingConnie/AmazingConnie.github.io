@@ -11,25 +11,85 @@ Description: Home page for my portfolio website
     <head>
         <meta charset="UTF-8">
         <title>Rohan Mallu Home Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Rohan Mallu</a>  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            
+        </nav>
         <!-- Navigation bar-->
-        <a href="index.html">Home</a>
-        <a href="experience.html">Experience</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        
 
         <!-- Section for basic info about me-->
         <section>
-            <h1>Rohan Mallu</h1>
-            <h3>Software Developer</h3>
-            <img src="images/rmalludev.jpg" alt="rohan mallu profile picture" height="200" width="200">
-            <p>I am an aspiring developer pursuing a Master's degree in Computer Science at the <br> University of Massachusetts Lowell.</p>
-            <p>I am interested in mobile development, cloud engineering, and data science.</p>
-            <a href="https://www.linkedin.com/in/rohan-mallu">LinkedIn</a>
-            <a href="https://github.com/AmazingConnie">GitHub</a>
+            <div class="container-fluid">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/rmalludev.jpg" class="img-fluid rounded-circle"  alt="rohan mallu profile picture" height="300" width="300">
+                        </div>
+                        <div class="col-md-8 align-self-center">
+                            <h1>Rohan Mallu</h1>
+                            <!--<h2>Software Developer</h2>-->
+                            <h4 class="text-wrap">Masters Student and Aspiring Software Engineer</h4>
+                     
+                            <a class="btn btn-primary" href="https://www.linkedin.com/in/rohan-mallu">Hire Me</a>
+                            <a class="btn btn-dark" href="https://github.com/AmazingConnie">View My Projects</a>
+                        </div>
+                    </div>
+                    <br>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <br>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/rmalludev.jpg" class="img-fluid rounded-circle"  alt="rohan mallu profile picture" height="300" width="300">
+                        </div>
+                        <div class="col-md-7">
+                            <h2>Hi, I'm Rohan!</h2>
+                            <!--<h2>Software Developer</h2>-->
+                            <p class="text-wrap">I'm currently pursuing my master's degree in Computer Science at the University of Massachusetts Lowell. For the past four years, I've developed projects such as mobile apps, front-end apps, and cloud apps. I look forward to building more projects during my masters degree, especially in the field of data science.</p>
+                            <p class="text-wrap">When I'm not in class, I'm either on campus with my friends or at home with my family. As an undergrad, I served as the president of my university's Association for Computing Machinery chapter. I also served as the student club advisor and social media coordinator for my university's Japanese Student Association.</p>
+                            <p class="text-wrap">In my free time, I like to play videos games and watch anime. </p>
+
+                            <p>If you have any questions or job/internship opportunities, feel free to contact me at <b>rohan_mallu@student.uml.edu</b> or <b>rmallu21@gmail.com</b></p>
+                            
+                        </div>
+                    </div>
+                    <br>
+            </div>
+
+            
+ 
         </section>
         <!--Photos of my projects/experiences (WIP)-->
-        <p><b>Gallery for Featuring Projects</b></p>
+        <!--<p><b>Gallery for Featuring Projects</b></p>-->
     </body>
 </html>
