@@ -11,10 +11,14 @@ Description: Home page for my portfolio website
     <head>
         <meta charset="UTF-8">
         <title>Rohan Mallu Home Page</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <!-- Bootstrap CSS CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
+        <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Rohan Mallu</a>  
@@ -43,45 +47,50 @@ Description: Home page for my portfolio website
             
             
         </nav>
-        <!-- Navigation bar-->
         
 
-        <!-- Section for basic info about me-->
+        
         <section>
+            <!-- Section with my links and opening introduction -->
             <div class="container-fluid">
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/rmalludev.jpg" class="img-fluid rounded-circle"  alt="rohan mallu profile picture" height="300" width="300">
+                            <img src="images/rmalludev.jpg" class="img-fluid rounded-circle"  alt="rohan mallu profile picture" height="400" width="400">
                         </div>
                         <div class="col-md-8 align-self-center">
-                            <h1>Rohan Mallu</h1>
+                            <h1 class="text-center">Rohan Mallu</h1>
                             <!--<h2>Software Developer</h2>-->
-                            <h4 class="text-wrap">Masters Student and Aspiring Software Engineer</h4>
+                            <h4 class="text-center text-wrap">Masters Student and Aspiring Software Engineer</h4>
                      
-                            <a class="btn btn-primary" href="https://www.linkedin.com/in/rohan-mallu">Hire Me</a>
-                            <a class="btn btn-dark" href="https://github.com/AmazingConnie">View My Projects</a>
+                            <div class="text-center p-2">
+                                <a class="btn btn-primary" href="https://www.linkedin.com/in/rohan-mallu">Hire Me</a>
+                                <a class="btn btn-dark" href="https://github.com/AmazingConnie">View My Projects</a>
+                            </div>
+                            
                         </div>
                     </div>
                     <br>
             </div>
             <hr>
+
+            <!-- Section for basic info about me-->
             <div class="container-fluid">
                 <br>
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="images/rmalludev.jpg" class="img-fluid rounded-circle"  alt="rohan mallu profile picture" height="300" width="300">
-                        </div>
-                        <div class="col-md-7">
-                            <h2>Hi, I'm Rohan!</h2>
+                        <div class="col-md-8">
+                            <h2 class="p-2">Hi, I'm Rohan!</h2>
                             <!--<h2>Software Developer</h2>-->
-                            <p class="text-wrap">I'm currently pursuing my master's degree in Computer Science at the University of Massachusetts Lowell. For the past four years, I've developed projects such as mobile apps, front-end apps, and cloud apps. I look forward to building more projects during my masters degree, especially in the field of data science.</p>
-                            <p class="text-wrap">When I'm not in class, I'm either on campus with my friends or at home with my family. As an undergrad, I served as the president of my university's Association for Computing Machinery chapter. I also served as the student club advisor and social media coordinator for my university's Japanese Student Association.</p>
-                            <p class="text-wrap">In my free time, I like to play videos games and watch anime. </p>
-
-                            <p>If you have any questions or job/internship opportunities, feel free to contact me at <b>rohan_mallu@student.uml.edu</b> or <b>rmallu21@gmail.com</b></p>
+                            <p class="p-2">I'm currently pursuing my master's degree in Computer Science at the University of Massachusetts Lowell. For the past four years, I've developed projects such as mobile apps, front-end apps, and cloud apps. I look forward to building more projects during my masters degree, especially in the field of data science.</p>
+                            <p class="p-2">When I'm not in class, I'm either on campus with my friends or at home with my family. As an undergrad, I served as the president of my university's Association for Computing Machinery chapter. I also served as the student club advisor and social media coordinator for my university's Japanese Student Association.</p>
+                            <p class="p-2">In my free time, I like to play videos games and watch anime. I also love spending time with my family. </p>
+                            <p class="p-2">If you have any questions or job/internship opportunities, feel free to contact me at <b>rohan_mallu@student.uml.edu</b> or <b>rmallu21@gmail.com</b></p>
                             
                         </div>
+                        <div class="col-md-4">
+                            <img src="images/rmallu_grad.jpg" class="img-fluid"  alt="rohan mallu profile picture" height="400" width="400">
+                        </div>
+                        
                     </div>
                     <br>
             </div>
@@ -89,6 +98,7 @@ Description: Home page for my portfolio website
             
  
         </section>
+        <footer class="footer mt-auto py-4 bg-dark">Whatever</footer>
         <!--Photos of my projects/experiences (WIP)-->
         <!--<p><b>Gallery for Featuring Projects</b></p>-->
     </body>
