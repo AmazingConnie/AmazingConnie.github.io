@@ -10,6 +10,7 @@ Description: Contact page for my portfolio website
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Rohan Mallu Resume Page</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
@@ -43,8 +44,17 @@ Description: Contact page for my portfolio website
         </nav>
 
          <!-- Embedded Resume -->
-        <h1>My Resume</h1>
-        <iframe src="Rohan_Mallu_Resume_Engineer.pdf" width="500" height="500"></iframe>
-        <footer class="footer mt-auto py-3 bg-dark">Content</footer>
+        <div class="container-fluid align-items-center">
+            <div class="row">
+                <h1 class="text-center">My Resume</h1>
+            </div>
+            <div class="row">
+                 <iframe src="Rohan_Mallu_Resume_Engineer.pdf" class="align-items-center" width="500" height="500"></iframe>
+            </div>
+        
+       
+        <footer class="footer mt-auto py-2 bg-dark">Content</footer>
+        </div>
+        
     </body>
 </html>
