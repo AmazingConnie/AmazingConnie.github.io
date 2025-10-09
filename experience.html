@@ -21,9 +21,11 @@ Description: Experiences page for my portfolio website
     </head>
     <body>
 
-        <!-- Navigation bar-->
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       
+       <!-- Navigation bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="navigation bar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Rohan Mallu</a>  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
@@ -32,105 +34,115 @@ Description: Experiences page for my portfolio website
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" aria-label="home page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+                            <a class="nav-link active" aria-current="page" href="experience.html" aria-label="experience page">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
+                            <a class="nav-link" href="projects.html" aria-label="projects page">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html" aria-label="contact page">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>  
         </nav>
 
-        
-
         <br>
-        <h1 class="text-center">My Experience</h1>
+        <h1 class="text-center" aria-label="my experience page">My Experience</h1>
 
         <!-- Source of component: https://bootstrapbrain.com/tutorial/bootstrap-timeline-with-images/#code-->
         <!-- Timeline 6 - Bootstrap Brain Component -->
 
-        <section class="bsb-timeline-6 py-3 py-md-5 py-xl-8">
-        <div class="container">
-            <div class="row justify-content-center">
-            <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
-                <ul class="timeline">
-                <li class="timeline-item left">
-                    <div class="timeline-body">
-                    <div class="timeline-content">
-                        <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src="images/umlacmlogo.png" alt="uml acm chapter president">
-                        <div class="card-body border border-top-0 border-light-subtle">
-                            <h5 class="card-subtitle text-secondary mb-1">2024-2025</h5>
-                            <h2 class="card-title mb-2">Chapter President</h2>
-                            <h6 class="card-subtitle text-secondary mb-3">Association for Computing Machinery at UMass Lowell</h6>
-                            <p class="card-text mb-2">As chapter president, I worked with a team of six members to create meetings for CS students.
-            Our meetings ranged from workshops on tools such as Python to guest speakers from CS upperclassmen at the university.</p>
+        <section class="bsb-timeline-6 py-3 py-md-5 py-xl-8" aria-label="timeline of experiences">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+                    <ul class="timeline">
+
+                    <!-- Component for President of ACM at UMass Lowell-->
+                    <li class="timeline-item left">
+                        <div class="timeline-body">
+                            <div class="timeline-content">
+                                <div class="card border-15">
+                                    <img class="card-img-top img-fluid" loading="lazy" src="images/umlacmlogo.png" alt="uml acm chapter president">
+                                    <div class="card-body border border-top-0 border-light-subtle">
+                                        <h5 class="card-subtitle text-secondary mb-1">2024-2025</h5>
+                                        <h2 class="card-title mb-2" aria-label="acm chapter president">Chapter President</h2>
+                                        <h6 class="card-subtitle text-secondary mb-3">Association for Computing Machinery at UMass Lowell</h6>
+                                        <p class="card-text mb-2">As chapter president, I worked with a team of six members to create meetings for CS students.
+                        Our meetings ranged from workshops on tools such as Python to guest speakers from CS upperclassmen at the university.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </li>
+
+                    <!-- Component for SWE Intern at Fidelity Investments-->
+                    <li class="timeline-item right">
+                        <div class="timeline-body">
+                            <div class="timeline-content">
+                                <div class="card border-15">
+                                    <img class="card-img-top img-fluid" loading="lazy" src="images/fidelitylogo.png" alt="fidelity investments intern">
+                                    <div class="card-body border border-top-0 border-light-subtle">
+                                        <h5 class="card-subtitle text-secondary mb-1">2024</h5>
+                                        <h2 class="card-title mb-2" aria-label="swe intern at fidelity investments">Mobile Software Engineering Intern</h2>
+                                        <h6 class="card-subtitle text-secondary mb-3">Fidelity Investments</h6>
+                                        <p class="card-text mb-2">As an intern, I developed features related to financial planning for Fidelity's flagship mobile app on Android devices.</p>
+                                        <p class="card-text mb-2">Using Kotlin and Jetpack Compose, I built custom UI components such as notification cards and a drop-down menu for viewing goals.</p>
+                                        <p class="card-text mb-2">I shared updates about my progress with my team and my manager during standups.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                </li>
-                <li class="timeline-item right">
-                    <div class="timeline-body">
-                    <div class="timeline-content">
-                        <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src="images/fidelitylogo.png" alt="fidelity investments intern">
-                        <div class="card-body border border-top-0 border-light-subtle">
-                            <h5 class="card-subtitle text-secondary mb-1">2024</h5>
-                            <h2 class="card-title mb-2">Mobile Software Engineering Intern</h2>
-                            <h6 class="card-subtitle text-secondary mb-3">Fidelity Investments</h6>
-                            <p class="card-text mb-2">As an intern, I developed features related to financial planning for Fidelity's flagship mobile app on Android devices.</p>
-                            <p class="card-text mb-2">Using Kotlin and Jetpack Compose, I built custom UI components such as notification cards and a drop-down menu for viewing goals.</p>
-                            <p class="card-text mb-2">I shared updates about my progress with my team and my manager during standups.</p>
+                    </li>
+
+                    <!-- Component for Student Club Advisor at UMass Lowell Japanese Student Association -->
+                    <li class="timeline-item left">
+                        <div class="timeline-body">
+                            <div class="timeline-content">
+                                <div class="card border-15">
+                                <img class="card-img-top img-fluid" loading="lazy" src="images/jsalogo.png" alt="jsa student club advisor">
+                                <div class="card-body border border-top-0 border-light-subtle">
+                                    <h5 class="card-subtitle text-secondary mb-1">2023</h5>
+                                    <h2 class="card-title mb-2">Student Club Advisor</h2>
+                                    <h6 class="card-subtitle text-secondary mb-3">UMass Lowell Japanese Student Association</h6>
+                                    <p class="card-text mb-2">As student club advisor, I worked with eight executive board members to develop meetings that celebrate Japanese culture.</p>
+                                    <p class="card-text mb-2">I mentored new executive board members on club logistics such as scheduling meetings and managing a club budget.</p>
+                                    <p class="card-text mb-2">I collaborated with other asian culture clubs at the university to hold events such as Night Market and Asian Night.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
+                    </li>
+
+                    <!-- Component for Student Club Advisor at UMass Lowell Japanese Student Association -->
+                    <li class="timeline-item right">
+                        <div class="timeline-body">
+                            <div class="timeline-content">
+                                <div class="card border-15">
+                                    <img class="card-img-top img-fluid" loading="lazy" src="images/jsalogo.png" alt="jsa social media coordinator">
+                                    <div class="card-body border border-top-0 border-light-subtle">
+                                        <h5 class="card-subtitle text-secondary mb-1">2022</h5>
+                                        <h2 class="card-title mb-2">Social Media Coordinator</h2>
+                                        <h6 class="card-subtitle text-secondary mb-3">UMass Lowell Japanese Student Association</h6>
+                                        <p class="card-text mb-2">As social media coordinator, I worked with the club's graphic designer to post information about our club's upcoming meetings.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                </li>
-                <li class="timeline-item left">
-                    <div class="timeline-body">
-                    <div class="timeline-content">
-                        <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src="images/jsalogo.png" alt="jsa student club advisor">
-                        <div class="card-body border border-top-0 border-light-subtle">
-                            <h5 class="card-subtitle text-secondary mb-1">2023</h5>
-                            <h2 class="card-title mb-2">Student Club Advisor</h2>
-                            <h6 class="card-subtitle text-secondary mb-3">UMass Lowell Japanese Student Association</h6>
-                            <p class="card-text mb-2">As student club advisor, I worked with eight executive board members to develop meetings that celebrate Japanese culture.</p>
-                            <p class="card-text mb-2">I mentored new executive board members on club logistics such as scheduling meetings and managing a club budget.</p>
-                            <p class="card-text mb-2">I collaborated with other asian culture clubs at the university to hold events such as Night Market and Asian Night.</p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </li>
-                <li class="timeline-item right">
-                    <div class="timeline-body">
-                    <div class="timeline-content">
-                        <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src="images/jsalogo.png" alt="jsa social media coordinator">
-                        <div class="card-body border border-top-0 border-light-subtle">
-                            <h5 class="card-subtitle text-secondary mb-1">2022</h5>
-                            <h2 class="card-title mb-2">Social Media Coordinator</h2>
-                            <h6 class="card-subtitle text-secondary mb-3">UMass Lowell Japanese Student Association</h6>
-                            <p class="card-text mb-2">As social media coordinator, I worked with the club's graphic designer to post information about our club's upcoming meetings.</p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </li>
-                </ul>
+                    </li>
+
+                    </ul>
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
         </section>
-        <footer class="footer mt-auto py-2 bg-dark">Whatever</footer>
+
+        <footer class="footer mt-auto py-2 bg-dark" aria-label="footer">
+            <p class="text-light text-center">Copyright &copy; 2025 Rohan Mallu</p>
+        </footer>
     </body>
 </html>

@@ -17,8 +17,9 @@ Description: Contact page for my portfolio website
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-         <!-- Navigation bar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         
+        <!-- Navigation bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="navigation bar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Rohan Mallu</a>  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
@@ -27,16 +28,16 @@ Description: Contact page for my portfolio website
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" aria-label="home page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a>
+                            <a class="nav-link" href="experience.html" aria-label="experience page">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
+                            <a class="nav-link" href="projects.html" aria-label="projects page">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="contact.html" aria-label="contact page">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,15 +47,17 @@ Description: Contact page for my portfolio website
          <!-- Embedded Resume -->
         <div class="align-items-center">
             <div class="row">
-                <h1 class="text-center">My Resume</h1>
-                <iframe src="Rohan_Mallu_Resume_Engineer.pdf" class="align-items-center" width="500" height="500"></iframe>
+                <h1 class="text-center" aria-label="my resume header">My Resume</h1>
+                <iframe src="Rohan_Mallu_Resume_Engineer.pdf" class="align-items-center" width="500" height="500" aria-label="resume embed"></iframe>
             </div>
 
                 
 
         
        
-        <footer class="footer mt-auto py-2 bg-dark">Content</footer>
+            <footer class="footer mt-auto py-2 bg-dark" aria-label="footer">
+                <p class="text-light text-center">Copyright &copy; 2025 Rohan Mallu</p>
+            </footer>
         </div>
         
     </body>

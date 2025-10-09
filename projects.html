@@ -16,8 +16,9 @@ Description: Projects page for my portfolio website
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
         <!-- Navigation bar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="navigation bar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Rohan Mallu</a>  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
@@ -26,30 +27,31 @@ Description: Projects page for my portfolio website
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" aria-label="home page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a>
+                            <a class="nav-link" href="experience.html" aria-label="experience page">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                            <a class="nav-link active" aria-current="page" href="projects.html" aria-label="projects page">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html" aria-label="home page">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>  
         </nav>
         
+        <!-- Judgemental Project Card-->
         <div class="container-fluid">
             <br>
-            <h1 class="text-center">My Projects</h1>
+            <h1 class="text-center" aria-label="my projects">My Projects</h1>
             <br>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="judgemental project card">    
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/gavelanimated.png" class="img-fluid rounded-start" alt="scrabble">
+                        <img src="images/gavelanimated.png" class="img-fluid rounded-start" alt="judgemental project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -60,10 +62,12 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+
+            <!-- Scrabble Project Card-->
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="scrabble project card">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/s_tile.jpg" class="img-fluid rounded-start" alt="scrabble">
+                        <img src="images/s_tile.jpg" class="img-fluid rounded-start" alt="scrabble project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -75,10 +79,12 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+
+            <!-- Coderlingo Project Card-->
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="coderlingo project card">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/coderlingo.png" class="img-fluid rounded-start" alt="tbd">
+                        <img src="images/coderlingo.png" class="img-fluid rounded-start" alt="coderlingo project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -89,10 +95,13 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+
+
+            <!-- ACM Website Project Card-->
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="acm website project card">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/umlacmlogo.png" class="img-fluid rounded-start" alt="tbd">
+                        <img src="images/umlacmlogo.png" class="img-fluid rounded-start" alt="acm uml logo">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -104,10 +113,13 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+
+
+            <!-- Budget Tracker Project Card-->
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="budget tracker project card">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/budget_tracker.png" class="img-fluid rounded-start" alt="tbd">
+                        <img src="images/budget_tracker.png" class="img-fluid rounded-start" alt="budget tracker image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -118,10 +130,13 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mx-auto" style="max-width: 900px;">
+
+            
+            <!-- To Do Project Card-->
+            <div class="card mb-3 mx-auto" style="max-width: 900px;" aria-label="to-do project card">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/awslogo.png" class="img-fluid rounded-start" alt="tbd">
+                        <img src="images/awslogo.png" class="img-fluid rounded-start" alt="aws logo">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -132,9 +147,12 @@ Description: Projects page for my portfolio website
                     </div>
                 </div>
             </div>
+            <br>
 
         </div>
         
-    <footer class="footer mt-auto py-2 bg-dark">Content</footer>
+    <footer class="footer mt-auto py-2 bg-dark" aria-label="footer">
+        <p class="text-light text-center">Copyright &copy; 2025 Rohan Mallu</p>
+    </footer>
     </body>
 </html>
